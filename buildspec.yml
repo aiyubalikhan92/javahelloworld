@@ -6,6 +6,10 @@ phases:
       - echo Build started on `date`
       - echo Compiling the Python code...
       - python hello.py
+      - echo $AWS_SECRET_ACCESS_KEY
+      - echo `aws ec2 describe-key-pairs --key-name linux`
+      - echo `aws sts get-caller-identity`
+      - echo `whoami`
   post_build:
     commands:
       - echo Build completed on `date`
