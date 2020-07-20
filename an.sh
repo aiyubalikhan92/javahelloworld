@@ -41,6 +41,9 @@ source ~/.bashrc
 
 echo -e "\n"
 echo $PATH
+which node
+node -v
+whereis node
 export PATH=$PATH:/root/.nvm/versions/node/v10.16.3/bin/
 #PATH=/root/.nvm/versions/node/v10.16.3/bin/npm:$PATH
 #PATH=/usr/bin/node:$PATH
