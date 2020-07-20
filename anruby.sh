@@ -14,11 +14,11 @@ rvm user gemsets
 source ~/.rvm/scripts/rvm
 type rvm | head -n 1
 rvm is a function
-rvm list known
 rvm install 2.1.3
 rvm use 2.1.3
 ruby -v
 which ruby
+echo $PATH
 export PATH=${/root/.rbenv/shims/ruby}:/usr/local/rvm/rubies/ruby-2.1.3/bin/ruby
 ruby -v
 which ruby
