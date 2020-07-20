@@ -41,3 +41,4 @@ source ~/.bashrc
 
 echo -e "\n"
 which npm
+$PATH
