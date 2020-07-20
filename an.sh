@@ -29,6 +29,10 @@ node -v
 
 echo -e "\n"
 
+export PATH=$PATH:/root/.nvm/versions/node/v10.16.3/bin/node/ >> ~/.bashrc
+
+echo -e "\n"
+
 source ~/.bashrc
 
 echo -e "\n"
