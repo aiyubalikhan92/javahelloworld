@@ -36,11 +36,11 @@ echo $PATH
 which node
 node -v
 whereis node
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+source ~/.bash_profile
+echo 'export PATH="$HOME/root/.nvm/versions/node/v10.16.3/bin/node:$PATH"' >> ~/.bash_aliases
 #export PATH="/usr/local/bin:$PATH"
 #export PATH="/usr/local/bin:$PATH" 
+source ~/.bash_profile
 #$export PATH="$/root/.nvm/versions/node/v10.16.3/bin:$PATH"
 #export PATH=$PATH:/root/.nvm/versions/node/v10.16.3/bin/node
 #export PATH="$PATH:/root/.nvm/versions/node/v10.16.3/bin/node"
