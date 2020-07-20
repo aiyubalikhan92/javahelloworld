@@ -40,3 +40,4 @@ echo -e "\n"
 source ~/.bashrc
 
 echo -e "\n"
+which npm
