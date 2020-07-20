@@ -41,4 +41,4 @@ source ~/.bashrc
 
 echo -e "\n"
 which npm
-$PATH
+export PATH="/root/.nvm/versions/node/v10.16.3/bin/npm:/usr/local/bin/node:/usr/local/sbin:~/bin:$PATH"
