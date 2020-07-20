@@ -36,11 +36,9 @@ echo $PATH
 which node
 node -v
 whereis node
-source ~/.bash_profile
 echo 'export PATH="$HOME/root/.nvm/versions/node/v10.16.3/bin/node:$PATH"' >> ~/.bash_aliases
 #export PATH="/usr/local/bin:$PATH"
 #export PATH="/usr/local/bin:$PATH" 
-source ~/.bash_profile
 #$export PATH="$/root/.nvm/versions/node/v10.16.3/bin:$PATH"
 #export PATH=$PATH:/root/.nvm/versions/node/v10.16.3/bin/node
 #export PATH="$PATH:/root/.nvm/versions/node/v10.16.3/bin/node"
