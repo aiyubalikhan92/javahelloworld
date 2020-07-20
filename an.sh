@@ -36,9 +36,9 @@ echo $PATH
 which node
 node -v
 whereis node
-export NVM_DIR="$/usr/local/bin/node/.nvm"
-export [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-export [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+export PATH="$/usr/local/bin/node/.nvm"
+export [ -s "$PATH/nvm.sh" ] && \. "$PATH/nvm.sh"
+export [ -s "$PATH/bash_completion" ] && \. "$PATH/bash_completion"
 #export PATH="/usr/local/bin:$PATH"
 #export PATH="/usr/local/bin:$PATH" 
 #$export PATH="$/root/.nvm/versions/node/v10.16.3/bin:$PATH"
