@@ -18,3 +18,4 @@ rvm list known
 rvm install 2.1.3
 rvm use 2.1.3
 ruby -v
+which ruby
