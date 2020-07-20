@@ -13,14 +13,6 @@ nvm --version
 
 echo -e "\n"
 
-nvm install node
-
-echo -e "\n"
-
-nvm use node
-
-echo -e "\n"
-
 nvm install v10.16.3
 
 echo -e "\n"
