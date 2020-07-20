@@ -21,7 +21,7 @@ which ruby
 echo $PATH
 #export PATH=${/root/.rbenv/shims/ruby}:/usr/local/rvm/rubies/ruby-2.1.3/bin/ruby
 export PATH="/usr/local/rvm/rubies/ruby-2.1.3/bin:$PATH" 
-export PATH="$HOME/.rvm/bin:$PATH"
+export PATH="$/root/.rvm/gems/ruby-2.1.3/.rvm/bin:$PATH"
 ruby -v
 which ruby
 rvm info
