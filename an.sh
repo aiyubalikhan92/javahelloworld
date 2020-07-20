@@ -44,7 +44,9 @@ echo $PATH
 which node
 node -v
 whereis node
-export PATH=$PATH:/root/.nvm/versions/node/v10.16.3/bin/node
+export PATH="/usr/local/bin/node:$PATH" 
+export PATH="$/root/.nvm/versions/node/v10.16.3/bin/node:$PATH"
+#export PATH=$PATH:/root/.nvm/versions/node/v10.16.3/bin/node
 #export PATH="$PATH:/root/.nvm/versions/node/v10.16.3/bin/node"
 #export PATH="/usr/local/bin/node:$PATH"
 #export PATH="$/root/.nvm/versions/node/v10.16.3/bin/node:$PATH"
