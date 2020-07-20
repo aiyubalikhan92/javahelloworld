@@ -41,8 +41,9 @@ source ~/.bashrc
 
 echo -e "\n"
 echo $PATH
-PATH=/root/.nvm/versions/node/v10.16.3/bin/npm:$PATH
-PATH=/usr/bin/node:$PATH
+export PATH=$PATH:/root/.nvm/versions/node/v10.16.3/bin/
+#PATH=/root/.nvm/versions/node/v10.16.3/bin/npm:$PATH
+#PATH=/usr/bin/node:$PATH
 #export PATH="/root/.nvm/versions/node/v10.16.3/bin/npm:/usr/local/bin/node:/usr/local/sbin:~/bin:$PATH"
 #export PATH="/root/.nvm/versions/node/v10.16.3/bin/npm:$PATH"
 which npm
