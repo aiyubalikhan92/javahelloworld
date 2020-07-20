@@ -24,3 +24,4 @@ export PATH="/usr/local/rvm/rubies/ruby-2.1.3/bin:$PATH"
 export PATH="$HOME/.rvm/bin:$PATH"
 ruby -v
 which ruby
+rvm info
